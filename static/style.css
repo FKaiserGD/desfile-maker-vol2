@@ -65,6 +65,11 @@
     }
 
     #op-equipe {
+        border: 2px solid #009D61;
+        /* Cor da borda para o botão Equipe */
+    }
+
+    #op-equipe {
         border: 2px solid #A904EA;
         /* Cor da borda para o botão Equipe */
     }
