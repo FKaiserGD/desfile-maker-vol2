@@ -1,20 +1,17 @@
 * {
-    margin: 0;
     font-family: 'Outfit', sans-serif;
 }
 
 @media screen and (max-width: 500px) {
     body {
         background-image: url(../static/background-site.png);
-        background-position: center;
-        
-        margin: 0;
+        background-position: center;        
+        margin: 16;
         color: white;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
         text-align: center;
-        align-items: center;
         /* Defina a altura do corpo como 100% da viewport */
     }
 
@@ -27,11 +24,7 @@
     }
 
     #menu {
-        margin-top: 20px;
-        /* Ajuste a margem superior do menu */
         display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     #menu ul {
@@ -40,37 +33,43 @@
 
     /* Estilos para os itens do menu */
     #menu li {
+      
         font-size: 20px;
         font-weight: 400;
         margin-top: 30px;
         padding: 20px 50px;
         /* Defina uma borda inicial transparente */
-        border-radius: 20px;
+        border-radius: 10px;
     }
 
     /* Estilos para as cores das bordas dos botões */
     #op-galeria {
+        width: 100%;
         border: 2px solid #08F200;
         /* Cor da borda para o botão Galeria */
     }
 
     #op-processo {
-        border: 2px solid #FF0293;
+        width: 100%;
+        border: 2px solid #009D61;
         /* Cor da borda para o botão Processo */
     }
 
     #op-manifesto {
-        border: 2px solid #FE7000;
+        width: 100%;
+        border: 2px solid #FF0293;
         /* Cor da borda para o botão Manifesto */
     }
 
     #op-equipe {
+        width: 100%;
         border: 2px solid #009D61;
         /* Cor da borda para o botão Equipe */
     }
 
-    #op-equipe {
-        border: 2px solid #A904EA;
+    #op-interaja {
+        width: 100%;
+        border: 2px solid #FE7000;
         /* Cor da borda para o botão Equipe */
     }
 
@@ -79,23 +78,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 0px;
         /* Ajuste a margem superior do rodapé */
     }
 
     .redessociais {
-        margin-top: 20px;
-    }
-
-    .redessociais ul {
-        list-style: none;
+        align-items: center;
+        width: 96px;
+        height: 22px;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        margin: 60px 0px 0px 0px;
     }
-
-    .redessociais li {
-        font-size: 24px;
-        margin-right: 20px;
+    .redessociais a {
+        font-size: 22px;
     }
 
     .footer p {
@@ -103,5 +100,15 @@
         text-align: center;
         width: 350px;
         margin-top: 20px;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .fab {
+        text-decoration: none;
+        color: #ffffff;
     }
 }
