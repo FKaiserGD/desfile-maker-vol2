@@ -3,6 +3,16 @@
 }
 
 @media screen and (max-width: 500px) {
+    header{
+        display: flex;
+        height: 82px;
+        justify-content: center;
+        margin: 0 auto ;
+    }
+    .titlle-prin{
+        font-size: 22px;
+        margin: 0;
+    }
     body {
         background-image: url(../static/background-site.png);
         background-position: center;        
@@ -33,7 +43,6 @@
 
     /* Estilos para os itens do menu */
     #menu li {
-      
         font-size: 20px;
         font-weight: 400;
         margin-top: 30px;
@@ -110,5 +119,13 @@
     .fab {
         text-decoration: none;
         color: #ffffff;
+    }
+    .div-text{
+        background-color: rgba(39, 39, 39, 0.4);
+        border-radius: 5px;
+    }
+    .div-text p {
+        margin: 5px 5px;
+        text-align: left;
     }
 }

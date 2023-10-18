@@ -1,32 +1,30 @@
 @media screen and (max-width: 500px) {
-  
-  
-
   .card-section{
     display: flex;
     flex-direction: column;
     overflow-x: auto;
     white-space: nowrap;
     width: 100%;
-    
   }
+
   .row{
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;   
-
   }
+
   .card{
     width: 120px;
-    height: 253px;
-   
+    height: 253px; 
     margin-right: 10px;
   }
+
   .titlle{
     font-size: 24px;
     margin-bottom: 30px;
     padding-top: 10px;
   }
+  
   .titlle-look{
     font-size: 11px;
     text-align: left;
