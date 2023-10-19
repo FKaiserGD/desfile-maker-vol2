@@ -14,9 +14,16 @@
   }
 
   .card{
+    padding:5px ;
     width: 120px;
     height: 253px; 
-    margin-right: 10px;
+    margin-right: 20px;
+    border: 1px solid #ffffff;
+  }
+ 
+  .card img{
+    height: 200px;
+    width: 65px;
   }
 
   .titlle{
